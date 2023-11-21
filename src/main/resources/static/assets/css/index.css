@@ -332,9 +332,11 @@ footer .container {
 
 .imgHome {
     width: 100px;
-
 }
-
+.iconSmall{
+	width: 20px;
+	height: 20px;
+}
 .banner-mid {
     display: flex;
 }

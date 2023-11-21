@@ -96,7 +96,7 @@ th:replace="~{/layout/fragment :: dynamic(~{::main})}">
 						</a>
 					</div>
 					<div class="card-footer">
-						<a th:href="@{|/product/detail/${item.productId}|}" class="card-title">[(${item.name})] [(${item.radius})]</a>
+						<a th:href="@{|/product/detail/${item.productId}|}" class="card-title">[(${item.name})]</a>
 						<div class="card-bottom">
 							<div>
 								<span class="price">[[${#numbers.formatInteger(item.unitPrice, 0,
